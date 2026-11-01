@@ -32,3 +32,7 @@ VERSION 6 — INDEPENDENT PROPIQ PROPOSED PRICE GUIDE
 - Buyer price signals are capped at +/-10% of comparable estimate; range uses adjusted comparable spread bounded at 2.5%-6.5%.
 - Does NOT use asking price or agent recommendation as model inputs. No AI or live sales integration claimed.
 - Demo data must be replaced and inputs verified before sending to a seller.
+
+
+PropIQ v7 Sales Data Hub
+Agent Workspace > Sales Data Hub > Upload Excel / CSV. Supports legacy .xls, .xlsx and .csv. Excel reader loads from jsdelivr CDN on demand; CSV works offline. Data is processed locally in the browser, with only allowlisted non-personal property fields retained in IndexedDB. It is not sent to Supabase. Source records are not bundled in this ZIP. Filters and ranks sales, then manually adds chosen sales to comparable list with adjustment 0 and weight 3. The user must review each sale. For a future multi-device system, add authenticated server-side imports, tenancy controls, source permissions, audit trails and data-quality validation.
