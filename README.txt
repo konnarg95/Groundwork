@@ -18,3 +18,5 @@ PROP IQ PUBLIC HOMEPAGE UPDATE
 UPDATE: Refined mobile homepage and added agent dashboard. Dashboard derives figures from current local user data, with illustrative demo records explicitly labelled. No live Domain feed. Existing cloud, endpoints and browser storage retained.
 
 V3: Compact mobile agent header with navigation drawer; property overview with clearly illustrative photo; full comparable labels; latest individual buyer feedback. Existing data storage keys and API routes retained.
+
+V4: Agent-only Buyer-Adjusted Price Intelligence and printable Seller Price Alignment Report. Separate buyer signals from comparable valuations; manual agent recommendation, distinct buyer reference aggregation, no automated price claims. Browser localStorage persists review in existing snapshot.
