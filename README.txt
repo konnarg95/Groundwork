@@ -39,3 +39,10 @@ Agent Workspace > Sales Data Hub > Upload Excel / CSV. Supports legacy .xls, .xl
 
 
 CampaignIQ v8: agent-only interface; existing local storage keys and Sales Data Hub records preserved for migration compatibility. Seller price reports remain available as agent-generated documents.
+
+
+V9 MARKETING + MEMBER EXPERIENCE
+Public home: conversion-focused marketing landing page with features and early-access CTA.
+Existing Supabase email/password authentication: sign in or create account.
+Workspace is shown to signed-in users, with existing dashboard and sales import features retained.
+IMPORTANT: Front-end navigation gate is NOT a production security boundary. The app currently bundles agent functionality in the public HTML, uses browser localStorage and manual cloud snapshots. Before charging subscriptions, implement verified server-side entitlement checks, private per-user storage, billing provider webhooks, account lifecycle and subscription plans. No live billing, trial, paid plans, trained AI or property-data API is implied.
