@@ -1,14 +1,3 @@
-Groundwork — Vercel deployment package
-
-This is the existing standalone MVP configured for static hosting.
-It currently stores data locally in the browser; it is NOT connected to Supabase.
-
-To deploy:
-1. Extract the ZIP to a folder.
-2. Upload this folder to a GitHub repository.
-3. In Vercel choose Add New > Project and import the repository.
-4. Select Framework Preset: Other. Build Command: none. Output Directory: leave blank (root).
-5. Deploy.
-
-Next development phase: add Supabase authentication and database persistence.
-Never put Supabase service_role or secret keys in frontend files.
+Groundwork — Three experiences: Agent, Investor and Homeowner.
+Upload index.html and vercel.json to the root of the GitHub repository. Vercel automatically deploys the new commit.
+Homeowner mode does not require login and uses separately stored browser-local data; it does not use sample agent data or claim to fetch verified sales. Supabase account integration is not yet implemented.
