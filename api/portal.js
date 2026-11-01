@@ -1,0 +1,2 @@
+import {userFromRequest,row,reply,fail,stripe,origin} from './_shared.js';
+export default async function handler(req,res){if(req.method!=='POST')return reply(res,405,{error:'Method not allowed'});try{const user=await userFromRequest(req);const sub=await row(user.id);if(!sub?.stripe_customer_id)return reply(res,404,{error:'No billing account yet'});const session=await stripe('billing_portal/sessions',{customer:sub.stripe_customer_id,return_url:origin(req)+'/?billing=return'});reply(res,200,{url:session.url})}catch(e){fail(res,e)}}
