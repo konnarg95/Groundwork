@@ -22,3 +22,13 @@ V3: Compact mobile agent header with navigation drawer; property overview with c
 V4: Agent-only Buyer-Adjusted Price Intelligence and printable Seller Price Alignment Report. Separate buyer signals from comparable valuations; manual agent recommendation, distinct buyer reference aggregation, no automated price claims. Browser localStorage persists review in existing snapshot.
 
 V5: Price alignment chart, explainable scenario suggestion (75% comps / 25% distinct buyer signal, capped +/-5%), collapsible buyer evidence, and seller report visual. Suggestions are drafts, not automatic valuations.
+
+
+VERSION 6 — INDEPENDENT PROPIQ PROPOSED PRICE GUIDE
+- Read-only model guide shown on Agent > Price Intelligence and Seller report.
+- Minimum three weighted adjusted comparable sales.
+- Uses comparable-sales estimate; adds distinct buyer expectation signal when at least two buyers have expectations, and offer signal only when both expectation and offer groups have at least two buyers.
+- 100% comps with insufficient buyer evidence; 80/20 comps/expectations or 70/20/10 comps/expectations/offers with sufficient evidence.
+- Buyer price signals are capped at +/-10% of comparable estimate; range uses adjusted comparable spread bounded at 2.5%-6.5%.
+- Does NOT use asking price or agent recommendation as model inputs. No AI or live sales integration claimed.
+- Demo data must be replaced and inputs verified before sending to a seller.
