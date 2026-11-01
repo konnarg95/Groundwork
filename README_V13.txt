@@ -1,0 +1,1 @@
+CampaignIQ v13 adds agent Open-home QR campaign creation and public buyer feedback form. See OPEN_HOME_SETUP.md for database and Vercel environment setup. No billing changes. Deploy full ZIP preserving api/openhome folder. Public early-access preview remains read-only.
