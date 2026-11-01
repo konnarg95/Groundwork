@@ -1,0 +1,1 @@
+CampaignIQ v16 fixes My Profile navigation. Signed-in users open a dedicated profile page instead of returning to the membership page. Open my dashboard returns to the agent workspace. Billing remains disabled for free POC accounts. Deploy the entire ZIP to GitHub, preserving API folders. Existing Supabase accounts and local data are retained.

@@ -1,0 +1,1 @@
+CampaignIQ v15: fixes free POC account navigation. Signed-in Supabase accounts can open My dashboard even when billing status endpoint is unavailable. Anonymous users still cannot access the signed-in workspace. QR campaigns still require server-side Supabase configuration and authenticated tokens. Do not treat the browser dashboard gate as a production security boundary.
