@@ -1,9 +1,9 @@
-Groundwork Supabase Cloud Update
+GROUNDWORK — PROPERTY DATA INTEGRATION READY
 
-Replace index.html and vercel.json at the ROOT of your GitHub Groundwork repository. Vercel automatically redeploys.
+Upload all files and the complete api/property/ folder to the ROOT of your existing GitHub repository. Keep the folder structure exactly as shown. Vercel should deploy the serverless functions automatically.
 
-Includes optional email/password signup, login, private per-user cloud snapshots, manual save and load for professional and homeowner workspaces. Homeowners can still use the calculator without an account.
+This version does NOT connect to Domain or retrieve real property data. The search interface and server-side endpoints are prepared for an approved provider. The Try fictional demo button loads fictional sample attributes only after confirmation. Manual entry and Supabase cloud accounts remain.
 
-In Supabase Authentication > URL Configuration, set Site URL to https://groundwork-zeta-ashen.vercel.app and add https://groundwork-zeta-ashen.vercel.app/** to Redirect URLs.
+After deployment, visit https://groundwork-zeta-ashen.vercel.app/api/property/status and confirm liveData:false. Then try the address lookup and demo button.
 
-IMPORTANT: Existing browser data stays local until a signed-in user selects Save to cloud. Demo data is fictional. No automatic verified sales feed.
+Read PROVIDER_INTEGRATION.md before activating real property data. Never add API secrets to index.html or GitHub.
