@@ -14,3 +14,5 @@ PROP IQ PUBLIC HOMEPAGE UPDATE
 - Homeowner, investor and agent cards open the appropriate experience.
 - Homepage example valuation is illustrative only, not live data.
 - No new property-data licensing or API access is implied.
+
+UPDATE: Refined mobile homepage and added agent dashboard. Dashboard derives figures from current local user data, with illustrative demo records explicitly labelled. No live Domain feed. Existing cloud, endpoints and browser storage retained.
