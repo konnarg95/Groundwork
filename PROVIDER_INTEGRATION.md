@@ -17,3 +17,6 @@ The `/api/property/search` endpoint accepts a search query and returns `awaiting
 - `/api/property/search?q=Aspley` reports `awaiting_provider`, empty results.
 - `/api/property/demo` returns a fictional record.
 - Homeowner manual entry, agent/investor workflows and Supabase cloud saving remain functional.
+
+
+CampaignIQ v8: agent-only interface; existing local storage keys and Sales Data Hub records preserved for migration compatibility. Seller price reports remain available as agent-generated documents.
