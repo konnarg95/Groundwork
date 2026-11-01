@@ -1,0 +1,1 @@
+CampaignIQ v11: Separate signup/billing page and conversion CTAs. Stripe requires configuration; no live payments until enabled. Upload all files to existing Vercel repo. Existing local storage keys retained. Public homepage no longer displays billing panel. Sign up opens /#signup, log in opens /#login. No payment processing is activated by this UI change.
