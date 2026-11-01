@@ -8,3 +8,9 @@ After deployment, visit https://groundwork-zeta-ashen.vercel.app/api/property/st
 
 Read PROVIDER_INTEGRATION.md before activating real property data. Never add API secrets to index.html or GitHub.
 \nDESIGN UPDATE: Homepage rebranded PropIQ, redesigned to match supplied reference. Existing browser storage keys remain unchanged to preserve data. Property figures in hero are illustrative, not live.\n
+PROP IQ PUBLIC HOMEPAGE UPDATE
+- Public homepage opens first; professional workspace opens on user action.
+- Existing application, account, valuation, local storage and API endpoint files retained.
+- Homeowner, investor and agent cards open the appropriate experience.
+- Homepage example valuation is illustrative only, not live data.
+- No new property-data licensing or API access is implied.
