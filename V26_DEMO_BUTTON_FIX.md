@@ -1,0 +1,1 @@
+PropIQ v26: Homepage demo calls to action are now direct links to ?demo=1 rather than JavaScript-dependent buttons. Both redundant Explore live demo buttons removed. Existing app and price-only QR form preserved. Deploy index.html and feedback.html without removing serverless api/ files.
